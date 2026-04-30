@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shivam Ceramic — Premium Sanitary Ware & Bathroom Fittings, Mumbai</title>
+  <meta name="description" content="Mumbai's trusted destination for premium Jaquar sanitary ware, bathroom fittings, faucets, and kitchen sinks. Established 2017. Serving Vile Parle East and all of Mumbai." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-mark">SC</span>
+        <span class="logo-text">Shivam <em>Ceramic</em></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#products">Products</a></li>
+        <li><a href="#brands">Brands</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="nav-cta">Get a Quote</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li><a href="#products" onclick="closeMobile()">Products</a></li>
+      <li><a href="#brands" onclick="closeMobile()">Brands</a></li>
+      <li><a href="#about" onclick="closeMobile()">About</a></li>
+      <li><a href="#contact" onclick="closeMobile()">Get a Quote</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-bg">
+      <div class="hero-lines"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Mumbai's Premium Sanitary Ware Destination</p>
+      <h1 class="hero-headline">
+        Elevate Every<br/><em>Space You Touch</em>
+      </h1>
+      <p class="hero-sub">
+        Authorised dealers of Jaquar, Essco, Nirali &amp; more — serving contractors, builders, and homeowners across Mumbai since 2017.
+      </p>
+      <div class="hero-actions">
+        <a href="#products" class="btn-primary">Explore Products</a>
+        <a href="#contact" class="btn-ghost">Request Quote</a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">8+</span><span class="stat-label">Years in Business</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num">500+</span><span class="stat-label">Products Available</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num">80%</span><span class="stat-label">Response Rate</span></div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </header>
+
+  <!-- CATEGORIES -->
+  <section class="categories" id="products">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Our Range</p>
+        <h2 class="section-title">Curated For <em>Every Room</em></h2>
+      </div>
+      <div class="categories-grid">
+
+        <div class="cat-card" data-delay="0">
+          <div class="cat-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="12" y="36" width="40" height="16" rx="4" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M20 36V28a12 12 0 0 1 24 0v8" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="32" cy="28" r="4" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="32" y1="12" x2="32" y2="20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Sanitary Ware</h3>
+          <p>Wall-hung WCs, concealed cisterns, urinals, and toilet seats from top Indian and international brands.</p>
+          <a href="#contact" class="cat-link">Enquire →</a>
+        </div>
+
+        <div class="cat-card" data-delay="100">
+          <div class="cat-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 48 Q 32 20 54 48" stroke="currentColor" stroke-width="1.5" fill="none"/>
+              <rect x="18" y="48" width="28" height="6" rx="2" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="32" cy="38" r="3" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="32" y1="14" x2="32" y2="28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="26" y1="16" x2="28" y2="22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="38" y1="16" x2="36" y2="22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Bathroom Fittings</h3>
+          <p>CP fittings, shower panels, built-in bathtubs, and thermostatic systems for the complete bathroom.</p>
+          <a href="#contact" class="cat-link">Enquire →</a>
+        </div>
+
+        <div class="cat-card featured" data-delay="200">
+          <div class="cat-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M28 20 C28 14 36 14 36 20 L36 36 C36 40 28 40 28 36 Z" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M36 28 L50 28 Q54 28 54 32 Q54 36 50 36 L36 36" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="32" y1="40" x2="32" y2="52" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="26" y1="52" x2="38" y2="52" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="featured-tag">Best Seller</div>
+          <h3>Faucets & Taps</h3>
+          <p>Single lever, pillar cock, sensor, and mixer taps in chrome, rose gold, and antique brass finishes.</p>
+          <a href="#contact" class="cat-link">Enquire →</a>
+        </div>
+
+        <div class="cat-card" data-delay="300">
+          <div class="cat-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="10" y="22" width="44" height="28" rx="3" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M22 22V18a10 10 0 0 1 20 0v4" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="32" cy="36" r="5" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M29 36 L35 36" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M32 33 L32 39" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Kitchen Sinks</h3>
+          <p>Nirali single and double bowl sinks, stainless steel, with drain boards in multiple grades.</p>
+          <a href="#contact" class="cat-link">Enquire →</a>
+        </div>
+
+        <div class="cat-card" data-delay="400">
+          <div class="cat-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="14" y="14" width="36" height="36" rx="3" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="14" y1="28" x2="50" y2="28" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="28" y1="14" x2="28" y2="50" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="21" cy="21" r="3" stroke="currentColor" stroke-width="1.2"/>
+              <circle cx="39" cy="39" r="3" stroke="currentColor" stroke-width="1.2"/>
+            </svg>
+          </div>
+          <h3>Bathroom Accessories</h3>
+          <p>Shower heads, health faucets, jet sprays, towel rails, and complete accessory sets.</p>
+          <a href="#contact" class="cat-link">Enquire →</a>
+        </div>
+
+        <div class="cat-card" data-delay="500">
+          <div class="cat-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="32" r="18" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="32" cy="32" r="6" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="32" y1="14" x2="32" y2="26" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="32" y1="38" x2="32" y2="50" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="14" y1="32" x2="26" y2="32" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="38" y1="32" x2="50" y2="32" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <h3>Pipes & Fittings</h3>
+          <p>Astral UPVC, CPVC pipes and fittings for residential and commercial plumbing projects.</p>
+          <a href="#contact" class="cat-link">Enquire →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BRANDS MARQUEE -->
+  <section class="brands-section" id="brands">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Authorised Dealers</p>
+        <h2 class="section-title">Brands We <em>Trust</em></h2>
+      </div>
+    </div>
+    <div class="marquee-wrapper">
+      <div class="marquee">
+        <span>JAQUAR</span><span class="dot">·</span>
+        <span>ESSCO</span><span class="dot">·</span>
+        <span>NIRALI</span><span class="dot">·</span>
+        <span>ASTRAL</span><span class="dot">·</span>
+        <span>HINDWARE</span><span class="dot">·</span>
+        <span>THERMODRAIN</span><span class="dot">·</span>
+        <span>NECO</span><span class="dot">·</span>
+        <span>JAQUAR</span><span class="dot">·</span>
+        <span>ESSCO</span><span class="dot">·</span>
+        <span>NIRALI</span><span class="dot">·</span>
+        <span>ASTRAL</span><span class="dot">·</span>
+        <span>HINDWARE</span><span class="dot">·</span>
+        <span>THERMODRAIN</span><span class="dot">·</span>
+        <span>NECO</span><span class="dot">·</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED PRODUCTS -->
+  <section class="products-section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Popular Items</p>
+        <h2 class="section-title">Handpicked <em>Products</em></h2>
+      </div>
+      <div class="products-grid">
+
+        <div class="product-card">
+          <div class="product-img">
+            <div class="product-placeholder">
+              <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="20" y="45" width="40" height="20" rx="4" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M28 45V36a12 12 0 0 1 24 0v9" stroke="currentColor" stroke-width="1.5"/>
+                <rect x="28" y="20" width="8" height="16" rx="2" stroke="currentColor" stroke-width="1.2"/>
+              </svg>
+            </div>
+            <div class="product-badge">In Stock</div>
+          </div>
+          <div class="product-info">
+            <span class="product-brand">Jaquar</span>
+            <h4>Concealed Cistern<br/>JCS-WHT-2400S</h4>
+            <div class="product-meta">Without Frame · Plastic</div>
+            <div class="product-price">₹ 6,150 <span>/piece</span></div>
+            <a href="#contact" class="btn-card">Get Quote</a>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img">
+            <div class="product-placeholder">
+              <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M35 25 C35 19 45 19 45 25 L45 45 C45 49 35 49 35 45 Z" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M45 35 L60 35 Q64 35 64 39 Q64 43 60 43 L45 43" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="40" y1="49" x2="40" y2="62" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="product-badge">Best Seller</div>
+          </div>
+          <div class="product-info">
+            <span class="product-brand">Jaquar</span>
+            <h4>Single Lever Exposed<br/>Shower Mixer</h4>
+            <div class="product-meta">Wall Mounted · Chrome</div>
+            <div class="product-price">₹ 2,525 <span>/piece</span></div>
+            <a href="#contact" class="btn-card">Get Quote</a>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img">
+            <div class="product-placeholder">
+              <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 30 Q 40 10 65 30 L65 58 Q 40 66 15 58 Z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                <path d="M15 30 Q 40 38 65 30" stroke="currentColor" stroke-width="1.2" stroke-dasharray="4 3"/>
+                <line x1="40" y1="38" x2="40" y2="18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                <circle cx="40" cy="14" r="3" stroke="currentColor" stroke-width="1.2"/>
+              </svg>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-brand">Jaquar</span>
+            <h4>Built-In Bathtub<br/>Acrylic Series</h4>
+            <div class="product-meta">Acrylic · White · Hindware</div>
+            <div class="product-price">₹ 1,82,000 <span>/piece</span></div>
+            <a href="#contact" class="btn-card">Get Quote</a>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img">
+            <div class="product-placeholder">
+              <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="14" y="26" width="52" height="34" rx="4" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M27 26V22a13 13 0 0 1 26 0v4" stroke="currentColor" stroke-width="1.5"/>
+                <circle cx="40" cy="43" r="6" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="36" y1="43" x2="44" y2="43" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="40" y1="39" x2="40" y2="47" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-brand">Nirali</span>
+            <h4>Elegance BG Kitchen Sink<br/>Single Bowl</h4>
+            <div class="product-meta">Stainless Steel · With Drainboard</div>
+            <div class="product-price">₹ 9,800 <span>/piece</span></div>
+            <a href="#contact" class="btn-card">Get Quote</a>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img">
+            <div class="product-placeholder">
+              <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="40" cy="34" r="14" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M30 44 L20 60 L60 60 L50 44" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M34 30 Q40 22 46 30" stroke="currentColor" stroke-width="1.2"/>
+                <circle cx="40" cy="34" r="4" stroke="currentColor" stroke-width="1.2"/>
+              </svg>
+            </div>
+            <div class="product-badge new-badge">Smart</div>
+          </div>
+          <div class="product-info">
+            <span class="product-brand">Jaquar</span>
+            <h4>Erica Digital Water Heater<br/>15 Litre</h4>
+            <div class="product-meta">5 Star · Storage · Electric</div>
+            <div class="product-price">₹ 12,300 <span>/piece</span></div>
+            <a href="#contact" class="btn-card">Get Quote</a>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img">
+            <div class="product-placeholder">
+              <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="18" y="22" width="44" height="44" rx="4" stroke="currentColor" stroke-width="1.5"/>
+                <rect x="22" y="18" width="36" height="8" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="18" y1="40" x2="62" y2="40" stroke="currentColor" stroke-width="1.2"/>
+                <line x1="40" y1="22" x2="40" y2="66" stroke="currentColor" stroke-width="1.2"/>
+                <circle cx="29" cy="31" r="4" stroke="currentColor" stroke-width="1.2"/>
+                <circle cx="51" cy="53" r="4" stroke="currentColor" stroke-width="1.2"/>
+              </svg>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-brand">Jaquar</span>
+            <h4>Infrared Sauna Room<br/>4 Person Capacity</h4>
+            <div class="product-meta">Far Infrared · 6×4 ft</div>
+            <div class="product-price">₹ 2,90,000 <span>/piece</span></div>
+            <a href="#contact" class="btn-card">Get Quote</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="products-footer">
+        <a href="#contact" class="btn-primary">View Full Catalogue →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT / WHY US -->
+  <section class="about-section" id="about">
+    <div class="container about-grid">
+      <div class="about-visual">
+        <div class="about-card-main">
+          <div class="about-big-num">2017</div>
+          <div class="about-big-label">Established in Mumbai</div>
+        </div>
+        <div class="about-card-side top">
+          <div class="about-side-icon">✦</div>
+          <div>GST Verified<br/><span>Trust Seal Certified</span></div>
+        </div>
+        <div class="about-card-side bottom">
+          <div class="about-side-icon">◈</div>
+          <div>₹1.5–5 Cr<br/><span>Annual Turnover</span></div>
+        </div>
+      </div>
+      <div class="about-content">
+        <p class="section-eyebrow">Who We Are</p>
+        <h2 class="section-title">Built on Trust,<br/><em>Refined by Experience</em></h2>
+        <p class="about-body">
+          Shivam Ceramic has been the go-to sanitary ware and bathroom fittings retailer in Mumbai's Vile Parle East neighbourhood since 2017. We stock an extensive range of products from India's most trusted brands — from everyday tap fittings to luxury sauna rooms.
+        </p>
+        <p class="about-body">
+          Whether you're a homeowner renovating your bathroom or a contractor sourcing for a large project, we offer competitive pricing, genuine products, and expert guidance on every purchase.
+        </p>
+        <ul class="about-features">
+          <li>
+            <span class="feature-bullet">—</span>
+            <div>
+              <strong>Authorised Dealer</strong>
+              <p>Official stockist for Jaquar, Essco, Nirali, and Astral</p>
+            </div>
+          </li>
+          <li>
+            <span class="feature-bullet">—</span>
+            <div>
+              <strong>Wide Range</strong>
+              <p>500+ products across 8+ categories, always in stock</p>
+            </div>
+          </li>
+          <li>
+            <span class="feature-bullet">—</span>
+            <div>
+              <strong>Expert Guidance</strong>
+              <p>Experienced team to help you pick the right product every time</p>
+            </div>
+          </li>
+        </ul>
+        <a href="tel:07942800418" class="btn-primary">Call Now: 07942800418</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header light">
+        <p class="section-eyebrow">Get In Touch</p>
+        <h2 class="section-title">Request a <em>Quote</em></h2>
+        <p class="section-desc">Fill in your details and we'll get back to you with the best pricing available.</p>
+      </div>
+      <div class="contact-grid">
+        <form class="contact-form" id="contactForm" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" placeholder="Rahul Sharma" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" placeholder="+91 98765 43210" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="product">Product / Category</label>
+            <select id="product">
+              <option value="">Select a category...</option>
+              <option>Sanitary Ware</option>
+              <option>Bathroom Fittings</option>
+              <option>Faucets & Taps</option>
+              <option>Kitchen Sinks</option>
+              <option>Bathroom Accessories</option>
+              <option>Water Heaters</option>
+              <option>Pipes & Fittings</option>
+              <option>Sauna / Luxury</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Describe Your Requirement</label>
+            <textarea id="message" rows="4" placeholder="E.g. 2 Jaquar wall-hung WCs, chrome finish taps for a 3BHK renovation..."></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Send Enquiry →</button>
+          <div class="form-success" id="formSuccess">
+            ✓ Thank you! We'll reach out within 24 hours.
+          </div>
+        </form>
+        <div class="contact-info">
+          <div class="contact-info-block">
+            <div class="info-label">Visit Us</div>
+            <p>Shop No 4, Plot No 7, Thosar Wadi,<br/>Hanuman Road, Vile Parle East<br/>Mumbai – 400057, Maharashtra</p>
+          </div>
+          <div class="contact-info-block">
+            <div class="info-label">Call Us</div>
+            <a href="tel:07942800418" class="contact-link">07942800418</a>
+          </div>
+          <div class="contact-info-block">
+            <div class="info-label">GST Number</div>
+            <p>27AKMPJ1914E1ZC</p>
+          </div>
+          <div class="contact-info-block">
+            <div class="info-label">Business Hours</div>
+            <p>Mon – Sat: 10:00 AM – 7:00 PM<br/>Sunday: By appointment</p>
+          </div>
+          <a href="https://maps.google.com?q=19.10347000,72.84971000" target="_blank" class="map-link">
+            <div class="map-placeholder">
+              <svg viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="200" height="120" fill="#1a1a1a"/>
+                <path d="M20 60 L80 30 L120 50 L180 20" stroke="#8B7355" stroke-width="2" opacity="0.5"/>
+                <path d="M20 80 L60 65 L100 75 L150 55 L180 60" stroke="#8B7355" stroke-width="1" opacity="0.3"/>
+                <circle cx="100" cy="55" r="8" fill="#8B7355" opacity="0.8"/>
+                <line x1="100" y1="47" x2="100" y2="30" stroke="#8B7355" stroke-width="1.5" opacity="0.6"/>
+                <text x="100" y="100" text-anchor="middle" fill="#8B7355" font-size="10" opacity="0.7" font-family="Jost">View on Google Maps →</text>
+              </svg>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-mark">SC</span>
+        <div>
+          <div class="footer-name">Shivam Ceramic</div>
+          <div class="footer-tagline">Premium Sanitary Ware, Mumbai</div>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="#products">Products</a>
+        <a href="#brands">Brands</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-copy">
+        © 2024 Shivam Ceramic · Proprietor: Rajendra Jain · All Rights Reserved
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
